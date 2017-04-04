@@ -1,0 +1,19 @@
+{
+  "name": "zaver-webapp",
+  "version": "0.1.0",
+  "description": "Webapp component for the zaver website/solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mathih13",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "jade": "^1.11.0",
+    "mongoose": "^4.9.3",
+    "pjson": "^1.0.8"
+  }
+}
