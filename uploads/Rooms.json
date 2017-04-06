@@ -1,0 +1,1 @@
+{"Rooms" : [{"description":"first","roomName":"start room","exits":[{"keyString":"north","exitDescription":"north is 2","targetRoomID":"00002"}],"roomID":"00001"},{"description":"second","roomName":"second room","exits":[{"keyString":"south","exitDescription":"south is 1","targetRoomID":"00001"}],"roomID":"00002"}]}

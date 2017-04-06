@@ -17,5 +17,13 @@ router.get('/', function (req, res){
   return res.render('index', {version: pjson.version, name: pjson["name"]});
 });
 
+router.get('/login', function (req, res){
+  return res.render('paths/login', {version: pjson.version, name: pjson["name"]});
+});
+
+router.get('/getfile', function (req, res){
+  res.sendFile(parentDir + '/uploads/' + req.query.fileName);
+});
+
 
 module.exports = router;
